@@ -7,6 +7,6 @@ through this tool, you can display peripheral register value
 display peripheral register field value
 ![](https://github.com/XIVN1987/JSVDView/blob/master/screenshot_field.png)
 
-even change peripheral register value, and peripheral register field value (by click value)
+even change peripheral register and field value (by click value)
 ![](https://github.com/XIVN1987/JSVDView/blob/master/screenshot_change.png)
 
