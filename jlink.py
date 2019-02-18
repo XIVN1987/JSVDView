@@ -12,7 +12,7 @@ class JLink(object):
             raise Exception('No JLink connected')
 
         err_buf = (ctypes.c_char * 64)()
-        self.jlk.JLINKARM_ExecCommand('Device = %s' %coretype, err_buf, 64)
+        self.jlk.JLINKARM_ExecCommand(('Device = %s' %coretype).encode(), err_buf, 64)
         
         self.jlk.JLINKARM_TIF_Select(1)
         self.jlk.JLINKARM_SetSpeed(12000)
